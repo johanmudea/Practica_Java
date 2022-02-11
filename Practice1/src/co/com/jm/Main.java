@@ -18,7 +18,8 @@ public class Main {
         //pr3.pairsFor();
 
         Practice4 pr4 = new Practice4();
-        pr4.doWhile();
+        //pr4.doWhile();
+        pr4.weekend();
 
 
     }
