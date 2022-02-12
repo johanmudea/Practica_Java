@@ -24,9 +24,13 @@ public class Main {
         //Practice5 pr5 = new Practice5();
         //pr5.smile();
 
-        Practice6 pr6 = new Practice6();
+        //Practice6 pr6 = new Practice6();
         //pr6.differences();
-        pr6.dateNow();
+        //pr6.dateNow();
+        //pr6.introducedNumber();
+
+        Practice7 pr7 = new Practice7();
+        pr7.menuActors();
 
     }
 }

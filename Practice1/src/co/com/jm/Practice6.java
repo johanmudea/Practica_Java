@@ -9,8 +9,7 @@ public class Practice6 {
     Scanner sc = new Scanner(System.in);
 
 
-
-    public void differences(){
+    public void differences() {
 
         System.out.println("Please, input your first word : ");
         String first = sc.nextLine();
@@ -18,18 +17,16 @@ public class Practice6 {
         System.out.println("Please, input your last word : ");
         String last = sc.nextLine();
 
-        if(first.equalsIgnoreCase(last)){
+        if (first.equalsIgnoreCase(last)) {
 
             System.out.println("Are Equals");
 
         } else
             System.out.println(" Are Not Equals");
 
-        for (int i = 0; i<first.length();i++){
-            if(first.charAt(i)==last.charAt(i)){
+        for (int i = 0; i < first.length(); i++) {
+            if (first.charAt(i) == last.charAt(i)) {
                 System.out.println("ok");
-
-
 
 
             }
@@ -40,23 +37,22 @@ public class Practice6 {
 
     /**
      * Podemos obtener la fecha-hora actual usando la clase LocaleDateTime con el método now().
-     *  Devuelve la fecha y la hora en formato YYYY-MM-DD-hh-mm-ss.zzz que parece 2020-09-22T14:39:33.889798.
+     * Devuelve la fecha y la hora en formato YYYY-MM-DD-hh-mm-ss.zzz que parece 2020-09-22T14:39:33.889798.
      * Para hacerlo más fácil de leer, usaremos DateTimeFormatter.ofPattern(pattern)
      * que toma un patrón de fecha y hora que podemos personalizar según nuestras necesidades.
      * es necesario (import java.time.format.DateTimeFormatter;)
-     *
      */
 
-    public void dateNow(){
+    public void dateNow() {
 
         System.out.println("Would you like to know the current date? y/n: ");
         String answer = sc.nextLine();
 
-        switch (answer){
+        switch (answer) {
 
             case "y":
                 DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-                System.out.println("Year/Month/Day (HH:mm:ss)-> "+dtf.format(LocalDateTime.now()));
+                System.out.println("Year/Month/Day (HH:mm:ss)-> " + dtf.format(LocalDateTime.now()));
                 break;
             case "n":
                 System.out.println("You select /no");
@@ -67,20 +63,31 @@ public class Practice6 {
                 System.out.println("Please insert a valid option");
 
 
-
-
-
         }
 
 
     }
 
+    public void introducedNumber() {
+
+        System.out.println("Would you like to introduce the number: ");
+        int input = sc.nextInt();
+
+        for(int i= input; i<=1000;i=i+2){
+            System.out.println(i);
+
+        }
 
 
-
-
-
-
-
-
+     }
 }
+
+
+
+
+
+
+
+
+
+
