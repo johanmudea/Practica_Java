@@ -17,9 +17,12 @@ public class Main {
         //pr3.pairsWhile();
         //pr3.pairsFor();
 
-        Practice4 pr4 = new Practice4();
+        //Practice4 pr4 = new Practice4();
         //pr4.doWhile();
-        pr4.weekend();
+        //pr4.weekend();
+
+        Practice5 pr5 = new Practice5();
+        pr5.smile();
 
 
     }
