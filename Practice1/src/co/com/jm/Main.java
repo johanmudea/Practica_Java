@@ -21,8 +21,11 @@ public class Main {
         //pr4.doWhile();
         //pr4.weekend();
 
-        Practice5 pr5 = new Practice5();
-        pr5.smile();
+        //Practice5 pr5 = new Practice5();
+        //pr5.smile();
+
+        Practice6 pr6 = new Practice6();
+        pr6.differences();
 
 
     }
