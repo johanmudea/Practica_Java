@@ -1,5 +1,7 @@
 package co.com.jm;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class Practice6 {
@@ -34,16 +36,50 @@ public class Practice6 {
         }
 
 
+    }
+
+    /**
+     * Podemos obtener la fecha-hora actual usando la clase LocaleDateTime con el método now().
+     *  Devuelve la fecha y la hora en formato YYYY-MM-DD-hh-mm-ss.zzz que parece 2020-09-22T14:39:33.889798.
+     * Para hacerlo más fácil de leer, usaremos DateTimeFormatter.ofPattern(pattern)
+     * que toma un patrón de fecha y hora que podemos personalizar según nuestras necesidades.
+     * es necesario (import java.time.format.DateTimeFormatter;)
+     *
+     */
+
+    public void dateNow(){
+
+        System.out.println("Would you like to know the current date? y/n: ");
+        String answer = sc.nextLine();
+
+        switch (answer){
+
+            case "y":
+                DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+                System.out.println("Year/Month/Day (HH:mm:ss)-> "+dtf.format(LocalDateTime.now()));
+                break;
+            case "n":
+                System.out.println("You select /no");
+                System.out.println("GOOD BYE");
+                break;
+
+            default:
+                System.out.println("Please insert a valid option");
 
 
 
 
 
-
-
+        }
 
 
     }
+
+
+
+
+
+
 
 
 

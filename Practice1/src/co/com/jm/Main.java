@@ -25,8 +25,8 @@ public class Main {
         //pr5.smile();
 
         Practice6 pr6 = new Practice6();
-        pr6.differences();
-
+        //pr6.differences();
+        pr6.dateNow();
 
     }
 }
