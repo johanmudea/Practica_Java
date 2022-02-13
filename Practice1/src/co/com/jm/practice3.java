@@ -1,9 +1,20 @@
 package co.com.jm;
 
+import java.util.Scanner;
+
 public class practice3 {
 
 
+
     public void pairsWhile(){
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please, input 0: ");
+        int number1 = sc.nextInt();
+
+
+
         System.out.println("-----------------------------------------------");
         System.out.println("WHILE");
         System.out.println("-----------------------------------------------");

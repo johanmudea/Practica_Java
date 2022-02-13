@@ -20,7 +20,9 @@ public class Practice4 {
         while (number<0);
 
 
+
     }
+    String day="";
 
     public void weekend(){
 
