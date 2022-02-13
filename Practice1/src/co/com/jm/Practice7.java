@@ -16,6 +16,8 @@ public class Practice7 {
             System.out.println("------------------------------------------");
             System.out.println("******CYMETOGRAPHIC MANAGEMENT*******");
             System.out.println("------------------------------------------");
+            System.out.println("Please Choose a Option Below.");
+            System.out.println("------------------------------------------");
             System.out.println("1. NEW ACTOR" );
             System.out.println("2. SEARCH ACTOR" );
             System.out.println("3. DELETE ACTOR" );
@@ -27,7 +29,7 @@ public class Practice7 {
             System.out.println("------------------------------------------");
 
             try{
-                System.out.println("Would you like to introduce the number: ");
+                System.out.println("Introduce the number: ");
                 input = sc.nextInt();
 
                 switch (input){

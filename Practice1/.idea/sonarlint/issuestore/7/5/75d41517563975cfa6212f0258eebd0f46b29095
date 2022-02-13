@@ -1,0 +1,25 @@
+
+;
+java:S2129" Remove this "String" constructor(ªœà‰ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(êÏöøøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚›œ¿ıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™‚ÒŒ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñ°üìşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ãÄµâ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ô³£Ø
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ßí±©ıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ìäìÌùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¶Æ§
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Û‹ô˜
+N	java:S106"9Replace this use of System.out or System.err by a logger.(•ÓÓâ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(Â’§«ÿÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(Á©Ã½
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(€×ğÕ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(æ¿ÿÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(Øî€¹øÿÿÿÿ
+e
+java:S11920"JDefine a constant instead of duplicating this literal "contains " 5 times.(Â’§«ÿÿÿÿÿ
+g
+java:S11920"LDefine a constant instead of duplicating this literal "The Phrase " 5 times.(Â’§«ÿÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªœà‰ÿÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘à²ôşÿÿÿÿ

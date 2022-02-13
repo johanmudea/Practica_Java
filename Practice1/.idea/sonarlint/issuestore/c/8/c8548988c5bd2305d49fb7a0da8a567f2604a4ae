@@ -1,0 +1,18 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÀéÊÓ
+N	java:S106"9Replace this use of System.out or System.err by a logger.( ˆò¥
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨Úâ½8çî™Ùî/
+K
+java:S1481".Remove this unused "selection" local variable.(¤æ¢‚8èî™Ùî/
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(Öíóüÿÿÿÿ8éî™Ùî/
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(Öíóüÿÿÿÿ8ëî™Ùî/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(Öíóüÿÿÿÿ8ëî™Ùî/
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(Öíóüÿÿÿÿ8ìî™Ùî/
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(Öíóüÿÿÿÿ8íî™Ùî/
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(È²üå8íî™Ùî/
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(Ôƒì¥şÿÿÿÿ8îî™Ùî/
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(È²üå8ïî™Ùî/
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(¤‰Úÿÿÿÿÿ8¸˜¢Ùî/
+T	java:S106;"9Replace this use of System.out or System.err by a logger.(Ã…¤M8áÔ£Ùî/
+q
+java:S1192#"VDefine a constant instead of duplicating this literal "You will have to work" 5 times.(Öíóüÿÿÿÿ
