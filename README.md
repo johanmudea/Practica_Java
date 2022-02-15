@@ -6,7 +6,8 @@ El Repositorio se desarrolló totalmente en ingles.
 
 Estan llamados todos en un main ejecutable continuuo  y distribuidos por clases con diferentes métodos, esto por funcionalidades en común.
 
-numeral de ejercicio:clase.
+(numeral de ejercicio:clase proyecto)
+
 1:Practice1.
 2:Practice1.
 3:Practice2.
@@ -18,7 +19,7 @@ numeral de ejercicio:clase.
 9:Practice5.
 10:Practice5.
 11:Practice5.
-12:Practice5.
+12:Practice6.
 13:Practice6.
 14:Practice6.
 15:Practice7.
