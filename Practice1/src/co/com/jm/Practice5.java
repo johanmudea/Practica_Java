@@ -2,6 +2,12 @@ package co.com.jm;
 
 import java.util.Scanner;
 
+/**
+9. Del texto, “La sonrisa sera la mejor arma contra la tristeza” Reemplaza todas las a del String anterior por una e, adicionalmente concatenar a esta frase una adicional que ustedes quieran incluir por consola y las muestre luego unidas.
+10. Realizar una aplicación de consola, que al ingresar una frase por teclado elimine los espacios que esta contenga.
+11. Realizar la construcción de un algoritmo que permita de acuerdo a una frase pasada por consola, indicar cual es la longitud de esta frase, adicionalmente cuantas vocales tiene de “a,e,i,o,u”.
+*/
+
 public class Practice5 {
 
     Scanner sc = new Scanner(System.in);
